@@ -1,0 +1,13 @@
+<ion-view view-title="Account">
+    <ion-nav-buttons side="right">
+        <button class="button" ng-click="start()">
+            <i class="ion-usb"></i>
+        </button>
+    </ion-nav-buttons>
+    <ion-content>        
+        <ion-item class="item-remove-animate item-avatar item-icon-right item-text-wrap" ng-repeat="log in logs" type="item-text-wrap">        
+            <p>{{log.message}}</p>
+        </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
